@@ -75,6 +75,7 @@ p {
   background-color:blueviolet;
   position: relative;
   margin: 10px;
+
 }
 .mb {
   width: 100%
@@ -83,11 +84,11 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .tb
   {
-      float: left;
+  float: left;
   border: 10px solid green;
   background-color: gray;
   position: relative;
-  margin: auto;
+  margin:0px
   }
   .tb {
   width: 50%;
