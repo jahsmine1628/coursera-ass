@@ -36,7 +36,7 @@ p {
     position: absolute;
     top: 0px;
     right: 0px;
-
+    font-size: large;
 }
 #p2 {
     background-color: brown;
@@ -45,7 +45,7 @@ p {
     position: absolute;
     right: 0px;
     top: 0px;
-    font-size: x-small;
+    font-size: large;
 }
 #p3 {
     background-color:orangered; 
@@ -54,61 +54,42 @@ p {
     position: absolute;
     right: 0px;
     top: 0px;
+    font-size: large;
 }
-@media (min-width: 992px) {
-  .div-lg-1, .div-lg-2, .div-lg-3
-  {float: left;
-    border: 10px solid green;
-    background-color: aqua;
-    position: relative;
-  }
-  .div-lg-1 {
-    width: 33.33%;
-  }
-  .div-lg-2 {
-    width: 66.66%;
-  }
-  .div-lg-3 {
-    width: 100%;
-  }
+
+  @media (min-width: 992px) {
+    .ds
+    {float: left;
+      border: 10px solid green;
+      background-color: aqua;
+      position: relative;
+    }
+    .ds {
+      width: 33.33%;
+    }
+  }  
+@media (max-width: 767px) {
+  .mb {
+  float: left;
+  border: 10px solid green;
+  background-color:blueviolet;
+  position: relative;
+  margin: 10px;
+}
+.mb {
+  width: 100%
+}
 }
 @media (min-width: 768px) and (max-width: 991px) {
-.div-md-1, .div-md-2, .div-md-3
-{
-    float: left;
-border: 10px solid green;
-background-color: gray;
-position: relative;
-margin: auto;
-}
-.div-md-1 {
-width: 33.33%;
-}
-.div-md-2 {
-width: 66.66%;
-}
-.div-md-3 {
-width: 100%;
-}
-}
-@media (max-width: 767) {
-    .div-sm-1,.div-sm-2.div-sm-1
-    {
-        float: left;
-    border: 10px solid green;
-    background-color: gray;
-    position: relative;
+  .tb
+  {
+      float: left;
+  border: 10px solid green;
+  background-color: gray;
+  position: relative;
+  margin: auto;
   }
-  .div-md-1 {
-    width: 33.33%;
-  }
-  .div-md-2 {
-    width: 66.66%;
-  }
-  .div-md-3 {
-    width: 100%;
+  .tb {
+  width: 50%;
   }
 }
-
-
-
