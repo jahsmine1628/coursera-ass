@@ -82,7 +82,7 @@ p {
 }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .tb
+  .tb, .tbs
   {
   float: left;
   border: 10px solid green;
@@ -92,5 +92,11 @@ p {
   }
   .tb {
   width: 50%;
+  }
+  .tbs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
   }
 }
